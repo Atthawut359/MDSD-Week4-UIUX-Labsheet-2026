@@ -237,8 +237,8 @@ Prompt ที่ไม่ดี:
 
 | รายการ | ค่าที่ได้ |
 |--------|---------|
-| Primary Color (Hex) | _________________ |
-| Secondary Color (Hex) | _________________ |
+| Primary Color (Hex) | __#1565C0__ |
+| Secondary Color (Hex) | __#8591A9__ |
 | Primary Container (Hex) | _________________ |
 | Surface (Hex) | _________________ |
 
