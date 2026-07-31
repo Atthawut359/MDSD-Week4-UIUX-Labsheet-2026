@@ -237,10 +237,10 @@ Prompt ที่ไม่ดี:
 
 | รายการ | ค่าที่ได้ |
 |--------|---------|
-| Primary Color (Hex) | __#1565C0__ |
-| Secondary Color (Hex) | __#8591A9__ |
-| Primary Container (Hex) | _________________ |
-| Surface (Hex) | _________________ |
+| Primary Color (Hex) | #405F90 |
+| Secondary Color (Hex) | #555F71 |
+| Primary Container (Hex) | #D6E3FF |
+| Surface (Hex) | #F9F9FF |
 
 > **คำถาม:** Primary, On Primary, Primary Container, On Primary Container คืออะไร มีลักษณะความสัมพันธ์ของสีอย่างไร?  วิเคราะห์และเติมตารางด้านล่าง
 
