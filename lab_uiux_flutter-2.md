@@ -927,10 +927,11 @@ Add brief comments explaining each section.
 
 | คำถาม | คำตอบ |
 |-------|-------|
-| AI ใช้ Widget อะไรสร้าง Avatar? | _________________ |
-| AI handle กรณี avatarUrl เป็น null อย่างไร? | _________________ |
-| AI ใช้ color จาก Theme หรือ hardcode? | _________________ |
-| มีส่วนไหนที่ควรปรับปรุง? | _________________ |
+| AI ใช้ Widget อะไรสร้าง Avatar? | CircleAvatar |
+| AI handle กรณี avatarUrl เป็น null อย่างไร? | ใช้ Ternary Operator เพื่อเช็คว่าถ้า avatarUrl เป็น null จะกำหนด backgroundImage ให้เป็น null และแสดงตัวอักษรย่อผ่าน Widget Text ใน child ของ CircleAvatar โดยใช้สีจาก colorScheme แทน |
+| AI ใช้ color จาก Theme หรือ hardcode? | ใช้สีที่ดึงมาจาก Theme.of(context).colorScheme ทั้งหมด เช่น onSurface และ onSurfaceVariant โดยไม่มีการ hardcode ค่าสีใดๆ เพื่อให้เป็นไปตามมาตรฐาน Material Design 3 |
+| มีส่วนไหนที่ควรปรับปรุง? | 
+ควรเพิ่มการจัดการ Error ของรูปภาพ, การป้องกันข้อความยาวเกิน, และการจัดรูปแบบตัวเลขให้เหมาะสม เพื่อให้ UI มีความยืดหยุ่นและรองรับข้อมูลที่หลากหลายได้ดียิ่งขึ้น |
 
 **ขั้นตอนที่ 4.4: นำ Code ไปใช้ใน Project**
 
