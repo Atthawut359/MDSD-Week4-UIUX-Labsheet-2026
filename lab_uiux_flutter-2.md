@@ -880,9 +880,11 @@ flutter run
 - [✔] FAB แสดง SnackBar เมื่อถูกคลิก
 
 **แก้ไขเปลี่ยนแปลง App Bar ให้แสดง คำว่า "Dev by" ตามด้วยชื่อนักศึกษา** แล้วบันทึกรูปผลการทดลอง
-```image
-บันทึกรูปที่นี่
-``` 
+
+
+<img width="1911" height="1012" alt="image" src="https://github.com/user-attachments/assets/a6f86af4-7d8b-4ab0-a2da-819d29383f59" />
+
+
 ---
 
 ### การทดลองที่ 4: ใช้ AI ช่วย Generate UI Component (30 นาที)
